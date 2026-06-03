@@ -1,0 +1,38 @@
+{
+    "variants": {
+        "facing=north,bottle_count=0": {"model": "illicit:block/cellar0", "y": 0},
+        "facing=east,bottle_count=0": {"model": "illicit:block/cellar0", "y": 90},
+        "facing=south,bottle_count=0": {"model": "illicit:block/cellar0", "y": 180},
+        "facing=west,bottle_count=0": {"model": "illicit:block/cellar0", "y": 270},
+
+        "facing=north,bottle_count=1": {"model": "illicit:block/cellar1", "y": 0},
+        "facing=east,bottle_count=1": {"model": "illicit:block/cellar1", "y": 90},
+        "facing=south,bottle_count=1": {"model": "illicit:block/cellar1", "y": 180},
+        "facing=west,bottle_count=1": {"model": "illicit:block/cellar1", "y": 270},
+
+        "facing=north,bottle_count=2": {"model": "illicit:block/cellar2", "y": 0},
+        "facing=east,bottle_count=2": {"model": "illicit:block/cellar2", "y": 90},
+        "facing=south,bottle_count=2": {"model": "illicit:block/cellar2", "y": 180},
+        "facing=west,bottle_count=2": {"model": "illicit:block/cellar2", "y": 270},
+
+        "facing=north,bottle_count=3": {"model": "illicit:block/cellar3", "y": 0},
+        "facing=east,bottle_count=3": {"model": "illicit:block/cellar3", "y": 90},
+        "facing=south,bottle_count=3": {"model": "illicit:block/cellar3", "y": 180},
+        "facing=west,bottle_count=3": {"model": "illicit:block/cellar3", "y": 270},
+
+        "facing=north,bottle_count=4": {"model": "illicit:block/cellar4", "y": 0},
+        "facing=east,bottle_count=4": {"model": "illicit:block/cellar4", "y": 90},
+        "facing=south,bottle_count=4": {"model": "illicit:block/cellar4", "y": 180},
+        "facing=west,bottle_count=4": {"model": "illicit:block/cellar4", "y": 270},
+
+        "facing=north,bottle_count=5": {"model": "illicit:block/cellar5", "y": 0},
+        "facing=east,bottle_count=5": {"model": "illicit:block/cellar5", "y": 90},
+        "facing=south,bottle_count=5": {"model": "illicit:block/cellar5", "y": 180},
+        "facing=west,bottle_count=5": {"model": "illicit:block/cellar5", "y": 270},
+
+        "facing=north,bottle_count=6": {"model": "illicit:block/cellar6", "y": 0},
+        "facing=east,bottle_count=6": {"model": "illicit:block/cellar6", "y": 90},
+        "facing=south,bottle_count=6": {"model": "illicit:block/cellar6", "y": 180},
+        "facing=west,bottle_count=6": {"model": "illicit:block/cellar6", "y": 270}
+    }
+}

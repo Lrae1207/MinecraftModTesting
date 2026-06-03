@@ -1,0 +1,19 @@
+[02Jun2026 16:06:47.590] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 30, --assetsDir, C:\Users\maxro\AppData\Roaming\.minecraft\assets, --gameDir, ., --mod, illicit, --all, --output, C:\Users\maxro\OneDrive\Desktop\MinecraftMod\src\generated\resources, --existing, C:\Users\maxro\OneDrive\Desktop\MinecraftMod\src\main\resources]
+[02Jun2026 16:06:47.591] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.0.1+8-LTS-27
+[02Jun2026 16:06:47.592] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 25.0.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[02Jun2026 16:06:47.658] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[02Jun2026 16:06:47.711] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/maxro/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[02Jun2026 16:06:48.428] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[02Jun2026 16:06:48.597] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\maxro\AppData\Roaming\.minecraft\assets, --assetIndex, 30, --mod, illicit, --all, --output, C:\Users\maxro\OneDrive\Desktop\MinecraftMod\src\generated\resources, --existing, C:\Users\maxro\OneDrive\Desktop\MinecraftMod\src\main\resources]
+[02Jun2026 16:06:51.570] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 64.0.8, for MC 26.1.2 with MCP 20260409.101008
+[02Jun2026 16:06:51.570] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v64.0.8 Initialized
+[02Jun2026 16:06:51.577] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[02Jun2026 16:06:51.693] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [illicit]
+[02Jun2026 16:06:51.734] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/maxro/OneDrive/Desktop/MinecraftMod/.gradle/mavenizer/repo/net/minecraftforge/forge/26.1.2-64.0.8/forge-26.1.2-64.0.8.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[02Jun2026 16:06:51.735] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/maxro/OneDrive/Desktop/MinecraftMod/.gradle/mavenizer/repo/net/minecraftforge/forge/26.1.2-64.0.8/forge-26.1.2-64.0.8.jar%230!/data/.mcassetsroot' uses unexpected schema
+[02Jun2026 16:06:51.810] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[02Jun2026 16:06:51.984] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 173 ms
+[02Jun2026 16:06:51.984] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Model Definitions
+[02Jun2026 16:06:52.015] [main/INFO] [net.minecraft.data.DataGenerator/]: Model Definitions finished after 31 ms
+[02Jun2026 16:06:52.016] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 205 ms
+[02Jun2026 16:06:52.020] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 60, old count: 60, new count: 60, removed stale: 0, written: 0

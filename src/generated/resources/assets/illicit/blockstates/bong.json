@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "illicit:block/bong0"
+    },
+    "stage=1": {
+      "model": "illicit:block/bong1"
+    },
+    "stage=2": {
+      "model": "illicit:block/bong2"
+    }
+  }
+}

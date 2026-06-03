@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "illicit:block/cannabis_stage4"
+  }
+}

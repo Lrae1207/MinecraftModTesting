@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "illicit:grapes"
+  ],
+  "result": "illicit:grape_seeds"
+}

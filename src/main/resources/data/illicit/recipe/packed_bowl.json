@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "illicit:dried_cannabis_leaf",
+    "illicit:dried_cannabis_leaf",
+    "illicit:bowl"
+  ],
+  "result": {
+    "id": "illicit:packed_bowl"
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"particle": "illicit:block/cellar_side",
+		"down": "illicit:block/cellar_top",
+		"up": "illicit:block/cellar_top",
+		"north": "illicit:block/cellar_side",
+		"south": "illicit:block/cellar4",
+		"east": "illicit:block/cellar_side",
+		"west": "illicit:block/cellar_side"
+	}
+}

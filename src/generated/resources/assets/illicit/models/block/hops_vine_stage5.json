@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "illicit:block/hops_vine_stage5"
+  }
+}

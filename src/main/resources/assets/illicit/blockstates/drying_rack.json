@@ -1,0 +1,23 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "illicit:block/drying_rack",
+            "y": 0
+        },
+
+        "facing=east": {
+            "model": "illicit:block/drying_rack",
+            "y": 90
+        },
+
+        "facing=south": {
+            "model": "illicit:block/drying_rack",
+            "y": 180
+        },
+
+        "facing=west": {
+            "model": "illicit:block/drying_rack",
+            "y": 270
+        }
+    }
+}
