@@ -6,5 +6,5 @@
   ],
   "duration": 1800,
   "bottle": ["minecraft:empty_bottle"],
-  "result": "illicit:wine"
+  "result": "illicit:wine_bottle"
 }
