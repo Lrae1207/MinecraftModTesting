@@ -1,23 +1,7 @@
 {
     "variants": {
-        "facing=north": {
-            "model": "illicit:block/distiller",
-            "y": 180
-        },
-
-        "facing=east": {
-            "model": "illicit:block/distiller",
-            "y": 270
-        },
-
-        "facing=south": {
-            "model": "illicit:block/distiller",
-            "y": 0
-        },
-
-        "facing=west": {
-            "model": "illicit:block/distiller",
-            "y": 90
+        "": {
+            "model": "illicit:block/distiller"
         }
     }
 }

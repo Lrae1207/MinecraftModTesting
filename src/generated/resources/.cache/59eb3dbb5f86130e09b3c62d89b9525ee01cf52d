@@ -1,4 +1,4 @@
-// 26.1.2	2026-06-03T20:32:29.0841768	Loot Tables
+// 26.1.2	2026-06-04T16:50:26.0498368	Loot Tables
 6b650d1e40925626241300629ae17f62e6fb74bf data/illicit/loot_table/blocks/bong.json
 f4a2d6a17ac29be83f622c87d1b1f98d0c2133ea data/illicit/loot_table/blocks/cannabis.json
 b889359eae149f84d37b521b7b1945052bfdfe50 data/illicit/loot_table/blocks/cellar.json
@@ -6,4 +6,4 @@ d575e9950c35b0c301d5a6e743c79219821c93c4 data/illicit/loot_table/blocks/distille
 cf006b5c624bf3e53afe6400ad863867f2fe8cc3 data/illicit/loot_table/blocks/drying_rack.json
 3934c15edc61db3776dfba535c9d1b46434c60fd data/illicit/loot_table/blocks/grape_vine.json
 3c6d68291b3f0331d1f11bf1c790fe6a3135702f data/illicit/loot_table/blocks/hops_vine.json
-104808e994772107f41dfaa2552c52e63959ec09 data/illicit/loot_table/blocks/wine_bottle.json
+09cd6aafb15e771bbfb388ffb5583d1d6c6c5de2 data/illicit/loot_table/blocks/wine_bottle.json

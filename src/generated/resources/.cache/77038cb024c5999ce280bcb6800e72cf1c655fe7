@@ -1,4 +1,4 @@
-// 26.1.2	2026-06-03T20:07:56.2016445	Model Definitions
+// 26.1.2	2026-06-04T16:50:26.0478364	Model Definitions
 295f3121371751216515cf8cf0234cd193ea3a9e assets/illicit/blockstates/bong.json
 536909177e14c8fa3869ff809ee82a44b2fd93f7 assets/illicit/blockstates/cannabis.json
 8b81123e856a25091bd109b14ad8f03e9e46bb36 assets/illicit/blockstates/cellar.json
@@ -21,7 +21,7 @@ b7df80bf53339d201b54ec35714f1a24b1ac4a11 assets/illicit/items/grapes.json
 5008c3d3cfbdc2d1bfbdcf506c3b19c93ee861c6 assets/illicit/items/grape_seeds.json
 25def93c42f6fa282ffb5349b88bcb9bab0ca3d2 assets/illicit/items/hops.json
 84f613198165ceedac9e27f1b89f1ebb7f17fa43 assets/illicit/items/packed_bowl.json
-fd2303a58299ca6ef9f42d2da226a1c2d8724228 assets/illicit/items/wine.json
+b1a4803495d1e270c94e440df8178b2754f87bf1 assets/illicit/items/wine_bottle.json
 8d1ddd91d9d2e2dbad1526704dfc2a807ca121f1 assets/illicit/models/block/bong0.json
 40a22235ecf47c1a95bdc1649dbf80699a67b76c assets/illicit/models/block/bong1.json
 775657280cf50087948e2fe1637be8a8c32cd601 assets/illicit/models/block/bong2.json
@@ -55,4 +55,4 @@ c2a29d939a69e2cd4896db4aa505dbf4400c6187 assets/illicit/models/item/dried_cannab
 ae373e16c1bacac7457c3155fca00aa484702f94 assets/illicit/models/item/grape_seeds.json
 045e97f9df51504aa7e2311f9325b59dbbcb4bff assets/illicit/models/item/hops.json
 7b4798da4cf46e89bceab99ae9686729346d4065 assets/illicit/models/item/packed_bowl.json
-1ffd69adfd07489573426ae3ea7ccad23bb473dd assets/illicit/models/item/wine.json
+ba85587a7b5d3a66373a570d449644e04db16192 assets/illicit/models/item/wine_bottle.json

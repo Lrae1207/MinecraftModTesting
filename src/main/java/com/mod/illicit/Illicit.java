@@ -1,7 +1,9 @@
 package com.mod.illicit;
 
+import com.mod.illicit.general.ModdedBlockEntities;
 import com.mod.illicit.general.ModdedBlocks;
 import com.mod.illicit.general.ModdedItems;
+import com.mod.illicit.general.ModdedMenus;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -32,6 +34,8 @@ public final class Illicit {
 
     public static ModdedItems items;
     public static ModdedBlocks blocks;
+    public static ModdedBlockEntities blockEntities;
+    public static ModdedMenus menus;
     public static CreativeTabs creativeTabs;
 
     public Illicit(FMLJavaModLoadingContext context) {
@@ -40,8 +44,10 @@ public final class Illicit {
         // Register the commonSetup method for modloading
         FMLCommonSetupEvent.getBus(modBusGroup).addListener(this::commonSetup);
 
-        items = new ModdedItems(context);
         blocks = new ModdedBlocks(context);
+        items = new ModdedItems(context);
+        blockEntities = new ModdedBlockEntities(context);
+        menus = new ModdedMenus(context);
         creativeTabs = new CreativeTabs(context, items);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us

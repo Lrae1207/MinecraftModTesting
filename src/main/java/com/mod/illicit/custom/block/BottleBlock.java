@@ -21,14 +21,17 @@ import net.minecraft.world.phys.BlockHitResult;
 
 public class BottleBlock extends TransparentBlock {
     public static final int MIN_BOTTLES = 1;
-    public static int maxBottles = 4;
-    public static IntegerProperty BOTTLES;
+    public int maxBottles = 4;
+    public static final IntegerProperty BOTTLES = IntegerProperty.create("bottles", MIN_BOTTLES, 12);
 
     public BottleBlock(int maximum, Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any().setValue(BOTTLES, 1));
         this.maxBottles = maximum;
-        BOTTLES = IntegerProperty.create("bottles", MIN_BOTTLES, maxBottles);
+    }
+
+    public int getMaxBottles () {
+        return maxBottles;
     }
 
     @Override

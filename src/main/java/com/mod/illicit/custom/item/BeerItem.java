@@ -18,11 +18,12 @@ public class BeerItem extends Item {
     public ItemStack finishUsingItem(ItemStack stack, Level level, LivingEntity livingEntity) {
         // Run standard drinking behaviors (e.g., eating food, playing sounds)
         ItemStack resultStack = super.finishUsingItem(stack, level, livingEntity);
+        System.out.println("DRINKING");
 
         if (!level.isClientSide() && livingEntity instanceof Player player) {
             ItemStack itemToGive = new ItemStack(ModdedItems.EMPTY_CAN.get()); // Change to your desired item
             boolean wasAdded = player.getInventory().add(itemToGive);
-            player.addEffect(new MobEffectInstance(MobEffects.NAUSEA, 200, 0));
+            player.addEffect(new MobEffectInstance(MobEffects.NAUSEA, 2500, 0));
 
             if (!wasAdded) {
                 player.drop(itemToGive, false);

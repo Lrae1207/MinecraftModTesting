@@ -25,7 +25,7 @@ public class ModItemModelGenerators extends ItemModelGenerators {
         generateFlatItem(ModdedItems.HOPS.get(), ModelTemplates.FLAT_ITEM);
         generateFlatItem(ModdedItems.BOWL.get(), ModelTemplates.FLAT_ITEM);
         generateFlatItem(ModdedItems.PACKED_BOWL.get(), ModelTemplates.FLAT_ITEM);
-        generateFlatItem(ModdedItems.WINE.get(), ModelTemplates.FLAT_ITEM);
+        generateFlatItem(ModdedItems.WINE_BOTTLE.get(), ModelTemplates.FLAT_ITEM);
 
         if (this.itemModelOutput instanceof ModModelProvider.ModItemInfoCollector collector)
             collector.generateDefaultBlockModels();

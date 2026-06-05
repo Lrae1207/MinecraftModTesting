@@ -2,9 +2,13 @@ package com.mod.illicit.general;
 
 import com.mod.illicit.Illicit;
 import com.mod.illicit.custom.item.BeerItem;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.component.Consumable;
+import net.minecraft.world.item.component.Consumables;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,14 +24,28 @@ public class ModdedItems {
     public static final RegistryObject<Item> EMPTY_CAN = ITEMS.register("empty_can",
             () -> new Item(new Item.Properties()
                     .setId(ITEMS.key("empty_can"))
-                    .stacksTo(16)
+                    .stacksTo(64)
             )
     );
 
+    // must be CustomConsumable bc of empty can functionality
     public static final RegistryObject<Item> BEER = ITEMS.register("beer",
             () -> new BeerItem(new Item.Properties()
-                    .setId(ITEMS.key("beer")))
-    ); // properties can be initialized here
+                    .setId(ITEMS.key("beer"))
+                    .food(new FoodProperties.Builder()
+                                    .alwaysEdible()
+                                    .build(),
+                            Consumables.defaultFood()
+                                    .build()
+                    )
+                    .component(DataComponents.CONSUMABLE,  Consumable.builder()
+                            .sound(SoundEvents.GENERIC_DRINK) // Sets custom chew sound
+                            .hasConsumeParticles(false)
+                            .build()
+                    )
+                    .stacksTo(64)
+            )
+    );
 
     public static final RegistryObject<Item> CANNABIS_LEAF = ITEMS.register("cannabis_leaf",
             () -> new Item(new Item.Properties()
@@ -53,7 +71,21 @@ public class ModdedItems {
 
     public static final RegistryObject<Item> GRAPES = ITEMS.register("grapes",
             () -> new Item(new Item.Properties()
-                    .setId(ITEMS.key("grapes")))
+                    .setId(ITEMS.key("grapes"))
+                    .food(new FoodProperties.Builder()
+                                    .nutrition(3)
+                                    .saturationModifier(2.0f)
+                                    .alwaysEdible()
+                                    .build(),
+                            Consumables.defaultFood()
+                                    .build()
+                    )
+                    .component(DataComponents.CONSUMABLE,  Consumable.builder()
+                            .sound(SoundEvents.GENERIC_EAT) // Sets custom chew sound
+                            .hasConsumeParticles(false)
+                            .build()
+                    )
+            )
     );
 
     public static final RegistryObject<Item> HOPS = ITEMS.register("hops",
@@ -98,9 +130,9 @@ public class ModdedItems {
                     .setId(ITEMS.key("packed_bowl")))
     );
 
-    public static final RegistryObject<Item> WINE = ITEMS.register("wine",
+    public static final RegistryObject<Item> WINE_BOTTLE = ITEMS.register("wine_bottle",
             () -> new BlockItem(ModdedBlocks.WINE_BOTTLE.get(), new Item.Properties()
-                    .setId(ITEMS.key("wine"))
+                    .setId(ITEMS.key("wine_bottle"))
             )
     );
 

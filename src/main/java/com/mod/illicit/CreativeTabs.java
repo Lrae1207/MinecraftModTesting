@@ -35,6 +35,7 @@ public class CreativeTabs {
                     output.accept(items.GRAPES.get());
                     output.accept(items.GRAPE_SEEDS.get());
                     output.accept(items.HOPS.get());
+                    output.accept(items.WINE_BOTTLE.get());
                 }).build());
 
         CREATIVE_MODE_TABS.register(modBusGroup);

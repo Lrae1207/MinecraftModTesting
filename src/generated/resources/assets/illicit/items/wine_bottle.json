@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "illicit:item/wine"
+    "model": "illicit:item/wine_bottle"
   }
 }
